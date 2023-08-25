@@ -1,0 +1,62 @@
+objetivos:
+	- ver si se pueden excitar atomos bombardeando electrones de baja energia
+	- ver si los niveles de energia del atomo son discretos
+materiales:
+	- tubo de f-hz
+	- fuente de voltaje
+	- horno electrico tubular
+	- amplificador lineal
+	- multitester
+	- termometro Hg
+	- conectores
+
+teoria de la experiencia:
+	se necesita fuente de electrones (filamento incandescente) y dispositivo para
+	transferir energia a los electrones.
+	
+	catodo rejilla anodo y mercurio
+	entre la rejilla y el catodo se aplica la tension continua que permite determinar la
+	energia transferida a los electrones: eV = (1/2) * (mv^2)
+
+	algunos electrones pueden llegar al anodo si su energia es >= a 1.5eV (en el ejemplo de la guia)
+	los electrones que llegan al anodo generan una corriente que es medida durante el exp
+
+	a V pequeño, choques elasticos con atomos de Hg -> corriente
+	a V mayor, choques inelasticos, atomos absorben energia -> baja de corriente
+	a V aun mayor, electrones se aceleran despues del choque, llegan al anodo con energia -> subida de corriente
+
+	---> se observarán subidas y caidas de corriente
+
+montaje experimental:
+	fuente de poder va conectada al horno, osciloscopio y voltimetro
+	el horno va conectado al amplificador, que va conectado al osciloscopio
+
+	es importante que el termometro quede aprox a la mitad del tubo, debido a que las temperaturas varian
+	demasiado de acuerdo a la ubicacion de este, ademas de usar el cable coaxial de alta temperatura para
+	conectar al horno
+
+	mover perilla hasta 4, esperar estabilizacion x 10 min, medir temperatura
+
+	encender osciloscopio, fuente y amplificador lineal
+		en amp lineal, usar impedancia 10^13 ohm y amplificacion 0, corregir 0 si es necesario
+	elevar tension en la fuente de voltaje a 40 V
+	
+	cambiar de modo manual a barrido en la fuente y buscar la curva en el osciloscopio
+	mover perillas Ch1 y Ch2 a ver que pasa
+	cambiar modos Y(t) y XY a ver que pasa
+
+	ahora, usando XY y persistencia a infinito, bajar temp del horno moviendo perilla a pos. 5.
+	esperar 10 min y medir temp. ¿Que pasa?
+
+	ajustar bien la señal del osciloscopio con tal de ver claramente los peaks, no olvidar anotar la calibracion
+	de los cuadrados del osciloscopio. se deberia ver una señal como la de la figura
+	en otro caso, subir temp lentamente y estudiar el comportamiento
+
+analisis:
+	- a partir del grafico V vs I, que representa fisicamente la curva obtenida?
+	- q importancia representa la tension en la rejilla?
+	- que valor promedio de tension en la rejilla utiliza ud? que sucederia si dicho valor resultara menor al
+	  esperado?
+	- comparar el grafico V vs I con la teoria de bohr
+	- proponer metodo para verificar los resultados de los valores de energia obtenidos en este experimento
+	- aqui se usa Hg. Se podria usar otro gas?
